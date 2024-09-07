@@ -8,7 +8,7 @@ app.use(express.json());
 
 const mainRouter = require("./routes/index");
 
-
+console.log("Logging it from Server")
 
 app.use("/api/v1", mainRouter);
 
